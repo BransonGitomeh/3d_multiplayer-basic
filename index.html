@@ -243,6 +243,14 @@ const engine = new Engine(GODOT_CONFIG);
 	}
 }());
 		</script>
+
+		<!-- Include the service worker update check script -->
+		<script defer src="update-check.js"></script>
+		
+		<script>
+			// Update the version number whenever you make changes to your service worker
+			navigator.serviceWorker.register('/service-worker.js?v=2').then(/* ... */);
+		</script>
 	</body>
 </html>
 
