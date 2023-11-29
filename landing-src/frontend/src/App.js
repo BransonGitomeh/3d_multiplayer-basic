@@ -356,6 +356,7 @@ const GodotGame = () => {
         src="https://poetic-seahorse-6d47f2.netlify.app/"
         style={iframeStyle}
         sandbox="allow-scripts allow-same-origin"
+        allow="cross-origin-isolated"
       ></iframe>
     </div>
   );
