@@ -7,18 +7,16 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
   from = "/executables/*"
-  to = "/executables/:splat"
+  to = "/downloads/:splat"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/multiplayer/*"
   to = "/:splat"
   status = 200
-  force = true
 
 [[redirects]]
-  from = "*"
+  from = "/*"
   to = "/server-client-nodejs/frontend/:splat"
   status = 200
-  force = true
+
