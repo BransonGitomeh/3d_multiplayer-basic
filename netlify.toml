@@ -12,6 +12,12 @@ Cross-Origin-Embedder-Policy = "require-corp"
   force = true
 
 [[redirects]]
+  from = "/multiplayer/*"
+  to = "/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/server-client-nodejs/frontend/"
   status = 200
