@@ -19,6 +19,6 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
   from = "*"
-  to = "/server-client-nodejs/frontend/"
+  to = "/server-client-nodejs/frontend/:splat"
   status = 200
   force = true
