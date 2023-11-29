@@ -3,6 +3,6 @@ for = "/*"
 
 [headers.values]
   Cross-Origin-Opener-Policy = "same-origin"
-  Cross-Origin-Embedder-Policy = "unsanitized-unsafe-inline"
+  Cross-Origin-Embedder-Policy = "require-corp"
   Cross-Origin-Resource-Policy = "cross-origin"
   Content-Security-Policy = "frame-ancestors 'self' *.netlify.app; frame-src 'self' *.netlify.app; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
