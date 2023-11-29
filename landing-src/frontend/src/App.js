@@ -341,7 +341,7 @@ const GodotGame = () => {
     <div className="container-fluid" id="navbarSupportedContent">
       <iframe
         title="Godot Game"
-        src="https://astounding-profiterole-59052b.netlify.app"
+        src="https://astounding-profiterole-59052b.netlify.app/multiplayer"
         style={iframeStyle}
       ></iframe>
     </div>
