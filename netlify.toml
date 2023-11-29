@@ -2,11 +2,9 @@
 for = "/*"
 
 [headers.values]
-  Cross-Origin-Opener-Policy = "cross-origin"
-  # Remove restrictive setting for embedding
-  Cross-Origin-Embedder-Policy = "*"
-  # Remove restrictive setting for resource policy
-  Cross-Origin-Resource-Policy = "*"
+  Cross-Origin-Opener-Policy = "same-origin"
+  Cross-Origin-Embedder-Policy = "require-corp"
+  Cross-Origin-Resource-Policy = "coep=unsafe-none"
 
 [[redirects]]
   from = "/executables/*"
