@@ -2,6 +2,6 @@
 for = "/*"
   [headers.values]
   Cross-Origin-Embedder-Policy = "require-corp"
-  Cross-Origin-Opener-Policy = "same-origin"
-  Cross-Origin-Resource-Policy = "same-origin"
+  Cross-Origin-Opener-Policy = "cross-origin"
+  Cross-Origin-Resource-Policy = "cross-origin"
   Content-Security-Policy = "frame-ancestors 'self' https://astounding-profiterole-59052b.netlify.app"
