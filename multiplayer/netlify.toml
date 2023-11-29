@@ -1,7 +1,8 @@
 [[headers]]
 for = "/*"
-  [headers.values]
+
+[headers.values]
   Cross-Origin-Embedder-Policy = "require-corp"
   Cross-Origin-Opener-Policy = "same-origin"
   Cross-Origin-Resource-Policy = "cross-origin"
-  Content-Security-Policy = "frame-ancestors 'self' https://astounding-profiterole-59052b.netlify.app"
+  Content-Security-Policy = "frame-ancestors 'self' https://astounding-profiterole-59052b.netlify.app; frame-src 'self' https://astounding-profiterole-59052b.netlify.app; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
