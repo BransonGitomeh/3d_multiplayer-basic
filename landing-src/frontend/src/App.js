@@ -335,6 +335,18 @@ const GodotGame = () => {
     width: '100%',
     height: '100vh', // Adjust the height as needed
     border: 'none', // Remove border for a cleaner look
+    backgroundColor: '#f5f5f5',
+    borderRadius: '12px',
+    boxShadow: '0 0 15px rgba(0, 0, 0, 0.2)',
+    overflow: 'hidden',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    cursor: 'pointer',
+    transition: 'transform 0.3s ease-in-out',
+    '&:hover': {
+      transform: 'scale(1.05)',
+    },
   };
 
   return (
