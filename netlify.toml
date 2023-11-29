@@ -7,7 +7,7 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
   from = "/executables/*"
-  to = "/downloads/:splat"
+  to = "/executables/:splat"
   status = 200
 
 [[redirects]]
@@ -17,6 +17,6 @@ Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
   from = "/*"
-  to = "/server-client-nodejs/frontend/:splat"
+  to = "/server-client-nodejs/frontend/build/:splat"
   status = 200
 
