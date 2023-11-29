@@ -3,7 +3,7 @@ for = "/*"
 
 [headers.values]
   Cross-Origin-Opener-Policy = "cross-origin"
-  Cross-Origin-Embedder-Policy = "require-corp"
+  Cross-Origin-Embedder-Policy = "unsanitized-unsafe-inline"
   Cross-Origin-Resource-Policy = "cross-origin"
 
 [[redirects]]
