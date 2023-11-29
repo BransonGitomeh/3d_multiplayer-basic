@@ -4,3 +4,15 @@ for = "/*"
 [headers.values]
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+
+[[redirects]]
+  from = "/executables/*"
+  to = "/server-client-nodejs/frontend/build/executables/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/server-client-nodejs/frontend/"
+  status = 200
+  force = true
