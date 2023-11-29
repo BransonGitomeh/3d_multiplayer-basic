@@ -355,6 +355,7 @@ const GodotGame = () => {
         title="Godot Game"
         src="https://poetic-seahorse-6d47f2.netlify.app/"
         style={iframeStyle}
+        sandbox="allow-scripts allow-same-origin"
       ></iframe>
     </div>
   );
